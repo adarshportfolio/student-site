@@ -8,3 +8,13 @@ body{
 #takethis{
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+    left-padding:1rem;
+    right-padding:1rem;
+}
+
+.container-fluid{
+    max-width: 600px;
+    margin: auto;
+}
