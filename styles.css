@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap');
 /* form google fonts */
 
+
+:root {
+    --primary-color: purple;
+    --white: #ffffff;
+  }
+
 body{
     font-family: 'Roboto', sans-serif;
     /* from google fonts */
@@ -10,11 +16,30 @@ body{
 }
 
 .container{
-    left-padding:1rem;
-    right-padding:1rem;
+    padding: 0rem 1rem;
 }
 
 .container-fluid{
     max-width: 600px;
     margin: auto;
+    padding: 2rem 4rem;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 0.5rem;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+
 }
