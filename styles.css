@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    padding: 0rem 1rem;
+    padding: 0rem 1rem; /*TopBottom LeftRight*/
 }
 
 .container-fluid{
@@ -27,7 +27,7 @@ body{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 3.5rem;
 }
 
 .primary-link{
@@ -38,8 +38,56 @@ body{
 
 .secondary-link{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 5.5rem;
     border: 1px solid var(--primary-color);
-
-
 }
+
+hr{
+    margin: 2rem 15rem;
+    /* top-bottom, left-right */
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: auto;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.inline-list{
+    padding: 1rem 15rem;
+}
+
+/* navigation */
+/* you should alter ul for link position in nav bar */
+/* you should alter <a> for link font and spacing */
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--white);
+    
+}
+
+.navigation .link{
+    text-align: end;
+    color: var(--white);
+}
+
+.navigation .nav-brand{
+    font-size: large;
+    font-weight: bold;
+}
+
+.navigation .nav-links{
+ padding: 1rem;  
+ text-align: right; 
+}
+/* link active is for highlighting in which page we are - that link appears bolder */
+.navigation .link-active{
+font-style: italic;
+}
+
+
