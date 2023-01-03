@@ -6,11 +6,14 @@
     --primary-color: rgb(112, 27, 112);
     --white: #ffffff;
     --font-gray: #94a3b8;
-  }
+    --off-white: #f5f5f5;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
     /* from google fonts */
+    margin: 0px; 
+    /* margin is zero - to get end to end wide page */
 }
 #takethis{
     font-family: 'Roboto', sans-serif;
@@ -31,7 +34,7 @@ body{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 3.5rem;
+    padding: 0.5rem 0.2rem;
 }
 
 .primary-link{
@@ -57,13 +60,13 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: auto;
+    padding: 0.5rem 0.5rem;
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
 }
 
 .inline-list{
-    padding: 1rem 15rem;
+    padding: 1rem 1rem;
 }
 
 /* navigation */
@@ -73,8 +76,7 @@ hr{
     background-color: var(--primary-color);
     color: var(--white);
     border-bottom-left-radius: 1rem;
-    max-height: 150px;    
-}
+padding: 1rem 1rem;}
 
 .navigation .link{
     text-align: end;
@@ -88,9 +90,9 @@ hr{
 }
 
 .navigation .nav-links{
- padding: 1rem;  
- text-align: right; 
- font-size: large;
+ padding: 0px 1rem;  
+ text-align: end; 
+ font-size: small;
  font-weight: lighter;
 }
 /* link active is for highlighting in which page we are - that link appears bolder or italic as in out case */
@@ -118,4 +120,35 @@ margin: auto;
     color: var(--primary-color);
 }
 
+/* Section */
+.section{
+    padding: 2rem;
 
+}
+
+
+
+.section h1{
+   text-align: center; 
+}
+
+.ow{
+    background-color: var(--off-white) ;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-top-right-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
